@@ -1,0 +1,34 @@
+
+//This file is for key terms, and key words
+
+
+-> RC in archives stand for release candidate.
+
+-> minimumSDK: Minimum SDK refers to the lowest Android version your app is allowed to run on
+	
+	its used in build.gradle
+
+		```
+		defaultConfig {
+			minSdkVersion 21
+			targetSdkVersion 34
+		```}
+
+
+-> The full form of SDK is:
+
+	Software Development Kit
+
+	It’s a collection of tools and libraries used to build applications for a specific platform
+
+-> Gradle is a build automation tool 
+
+	— basically the system that compiles your code, pulls dependencies, packages your app, and prepares it for run or release.
+
+
+-> 1080x2400: means the amount of pixels.
+
+-> dpi 420: means display per inch, 420 pixels per inch
+
+-> Cold Boot: Fully powers on the PC from zero → runs full hardware checks → slower but more reliable.
+-> Quick Boot: Skips many hardware checks → much faster startup → may miss issues or new hardware.

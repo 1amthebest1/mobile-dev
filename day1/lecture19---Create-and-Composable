@@ -1,0 +1,83 @@
+------
+
+MainActivity is the main screen that the Android system launches first, and execution begins in its lifecycle methods (like onCreate()),
+not directly in MainActivity itself like a main() function in Kotlin.
+
+------
+
+A module is a buildable unit.
+
+It usually contains multiple packages/folders and many .kt files.
+
+In Android Studio, each module has its own build.gradle (or build.gradle.kts) file.
+
+You can run/compile it independently, or include it in another module.
+
+------
+
+Modifier	Inherited as	Accessible outside class?
+
+public		public		Yes
+protected	protected	No
+internal	internal	Only same module
+private		Not inherited	No
+
+------
+
+In Kotlin, open is a special modifier that controls inheritance and overriding. 
+By default, all classes and functions in Kotlin are final, 
+which means you cannot inherit from them or override their methods unless you explicitly mark them as open.
+
+------
+
+Visibility (private/protected/public/internal) → controls access
+
+Inheritance (open/final/abstract) → controls extendibility
+
+------
+
+Modifier in Compose ≠ Kotlin modifier keyword.
+
+It’s an object that describes layout, drawing, interaction.
+
+modifier: Modifier = Modifier → parameter with a default value, allowing flexibility.
+
+------
+
+Activity is what you have opened in your screen, so if you change your screen you are going from one activity to another activity.
+
+------
+
+onCreate(){}, means on the creation of this activity, execute the inside of the onactivity(){//execute whatever is here}
+
+------
+
+much like solidity, it has the super keyword, which runs the method of the parent class
+
+------
+
+Surface(), is the background of the app, i think like the canvas in raylib.
+
+------
+
+Modifier.fillMaxSize(), fills the entire screen.
+
+------
+
+color=MaterialTheme.colorScheme.background, it creates a colorscheme, based on the material theme of the application. for example: if you have dark mode turned on it uses a different scheme as compared to light mode.
+
+------
+
+lightgreen text color: means we are talking about composable.
+
+------
+
+Composable is basically an element that you can see on the screen.
+
+
+
+
+
+
+
+

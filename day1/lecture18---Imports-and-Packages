@@ -1,0 +1,33 @@
+===============
+
+Every Android app has a unique package name (like com.example.myapp).
+
+This name identifies your app on the device and on Google Play.
+
+Example:
+
+App: WhatsApp → com.whatsapp
+
+App: Instagram → com.instagram.android
+
+Why it matters:
+
+Two apps cannot have the same package name on the same device.
+
+The package name is used internally to manage app updates, permissions, and resources.
+
+===============
+
+every file inside a package, can be used by other files in the package by default.
+
+===============
+
+The import keyword is used to bring classes, interfaces, or entire packages into your file so you can use their code.
+
+===============
+
+Jetpack Compose = modern Kotlin-based toolkit for UI.
+
+===============
+
+Lecture Conclusion: Google has provided us with various libraries and toolkits, that make our lives easier.
