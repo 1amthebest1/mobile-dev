@@ -1,0 +1,79 @@
+============
+
+- we are creating a rock, paper, scissor app.
+
+- we are going to store info in the lifetime of the app in variables, and not permanent storage.
+
+============
+
+- var [varible declaration] animalName [variable name declaration] = cat [variable value].
+
+============
+
+- In kotlin everything is an object, in the sense that you can call member functions and properties of any variable.
+
+============
+
+- In kotlin use the "val" keyword to create variable whose value cannot be changed unlike "var"
+
+============
+
+- When you initialize a variable with no explicit type specification, the compiler handles that for you and uses the smallest datatype in bytes that can store the value in the range.
+
+
+	val one = 1 //Int
+
+	val threeBillion=3000000000
+
+- if you want to store a number that can store long, you can do
+
+	val one = 1L
+
+- you can also store a byte via
+
+	val oneByte: Byte = 1
+
+=============================================
+=============================================
+
+
+- fun main(), is entry point of our program
+
+
+- var is mutable (changeable)
+
+- val is immutable (constant) {not changeable}
+
+============
+
+- you can explicitly set the datatype the compiler should use for a certain variable via "var variableName : Byte = 12"
+
+- this is basically defining the datatype, otherwise the compile infers it.
+
+
+=============================================
+=============================================
+
+- float, has 4 bytes (32 bits), signifcant bits (24), exponent bits (8).
+
+- double has 8 bytes (64 bits), significant bits (53), exponent bits (11).
+
+============
+
+- var floatNum = 5f
+
+- the compiler rounds the number up if it exceeds the range of a given number.
+
+============
+
+- println(someBool || someBool) //if either is true, then result is true.
+
+- println(someBool && someBool) //if both is true, then result is true.
+
+============
+
+- val myChar = '\u00AE' 
+
+============
+
+- String is basically a collection of chars
