@@ -1,0 +1,24 @@
+
+=====
+package pk.bak3r.kotlinbasics
+
+fun main(){
+    makeCoffee(sugarCount = 1)
+    makeCoffee(3)
+}
+
+fun makeCoffee(sugarCount : Int){
+
+    if(sugarCount !in 1..3){
+        println("In correct sugar amount")
+    }
+    else {
+
+        if (sugarCount == 1) {
+            println("Coffee with $sugarCount spoon of sugar")
+        } else {
+            println("Coffee with $sugarCount spoons of sugar")
+        }
+    }
+}
+=====

@@ -77,3 +77,40 @@
 ============
 
 - String is basically a collection of chars
+
+============
+
+- readln().toInt()
+
+============
+
+- when are like switches
+
+=> when () {
+
+	1 -> {}
+
+	}
+
+============
+
+
+- 
+	val winner = when {
+
+		playerChoice == computerChoice -> "Tie"
+
+		else -> "Computer Wins"
+		     }
+
+
+
+
+============
+
+
+- instead of string concatenation we can do template type thing, such as println(winner + "won"), we can do println("$winner won")
+
+
+============
+
