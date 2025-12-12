@@ -22,3 +22,21 @@ fun makeCoffee(sugarCount : Int){
     }
 }
 =====
+
+This is how you return values in kotlin fun add(num1:Int, num2:Int) : Int {}
+
+=====
+
+class Dog{
+
+	init {
+		bark()
+
+		}
+
+
+	fun bark(){
+		println("Woof Woof!")
+	}
+
+}
