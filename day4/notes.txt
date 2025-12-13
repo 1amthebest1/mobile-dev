@@ -1,0 +1,39 @@
+
+- //immutable list You cannot add, remove, or change elements after creating it.
+  
+- val shoppingList = listOf("RAM", "GraphicsCard", "SSD")
+
+
+==
+
+- mutable list You can add, remove, or change elements after creating it.
+    val shoppingList = mutablelistOf<String>("RAM", "GraphicsCard", "SSD")
+
+==
+
+//ITS HEREBY DECLARED THAT I WILL ONLY DOCUMENT THE THINGS I DON'T KNOW
+
+==
+
+.set(), replaces the value at a certain index.
+
+.contains() returns true, if the item is there in the list.
+
+== 
+
+for(item in 0 until shoppinglist.size())
+
+	println(item) //0 till last index size.
+
+== 
+
+for (index in 0 until 4)
+
+== 
+
+for(index 0..4){} //also works
+
+==
+
+//if we don't add Strings, the empty list will not know what kind of data it has to store
+private val transactionHistory = mutableListOf<Strings>()
