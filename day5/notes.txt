@@ -1,0 +1,45 @@
+=====
+
+@Composable
+fun unitConverter(){
+    Column {
+        Text("Unit Converter")
+        OutlinedTextField(value = "Enter Value", onValueChange = {
+        /*Here goes what should happen when user enters input*/
+        })
+        Row {
+
+        }
+    }
+}
+
+//basically we made our own composable. We created a single column and a row, and a text input field.
+
+=====
+
+- The purpose of a preview is to visualize your Composables without running the entire application.
+
+=====
+
+@Preview(showBackground = true)
+@Composable
+fun yourFunctionToPreview(){	yourFunctionToPreview()
+				}
+//This is how you create previews
+
+=====
+
+- You are basically creating an alert (toast), when the button is click it should show you the toast in local context
+
+- 
+val context = LocalContext.current
+
+Button(onClick={
+	Toast.makeText(context, "Thanks For Clicking", Toast.LENGHT_LONG).show()
+})
+
+{Text("click me")}
+
+=====
+
+- Surface: Surface is the entire screen
