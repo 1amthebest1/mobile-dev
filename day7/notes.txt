@@ -1,0 +1,62 @@
+
+- Lazy Column, basically discards the item in the list that is not in display, and adds new item in the list to display that
+
+- Unit is a real type that represents “no meaningful value”, but still a value.
+
+- lambda function gets executed when the added action is triggered.
+
+- lambda is basically very short functions.
+
+- Unit “I finished successfully, no value”.
+
+- A lambda is code that you pass as an argument, and another function runs that code.
+
+- -> means:
+
+“this value goes into this code”
+
+===
+
+How LazyColumn works (plain English)
+
+sItems = all the items in your list.
+
+LazyColumn does not draw all of them at once.
+
+Instead, it:
+
+Takes the first few items that can fit on screen
+
+Calls your lambda for each item (shoppingListItem(it, {}, {}))
+
+Creates only those UI components
+
+When you scroll:
+
+Items that leave the screen are recycled / removed
+
+New items coming on screen are added by calling the lambda again
+
+So yes, it “knows” which items to show at any moment, and it calls your function only for those visible items.
+
+===
+
+val doubleNummer: (Int) -> Int = { it * 2 }
+Simple version:
+1️⃣ val doubleNummer → a variable (something you store)
+2️⃣ (Int) -> Int → type of that variable (it’s a function that takes an Int and returns an Int)
+3️⃣ { it * 2 } → the actual function code (lambda)
+
+it = the input number
+
+===
+
+In kotlin you can store functions in variables.
+
+===
+
+In Kotlin, it is the implicit name of a single parameter in a lambda when the parameter is not explicitly named.
+
+===
+
+In Jetpack Compose, recomposition is basically the process where a Composable function is “re-run” to update the UI whenever the state it depends on changes.

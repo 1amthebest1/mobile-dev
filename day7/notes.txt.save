@@ -1,0 +1,4 @@
+
+- Lazy Column, basically discards the item in the list that is not in display, and adds new item in the list to display that
+
+
